@@ -43,6 +43,11 @@
 	</dependencies>
 
 	<build>
+		<finalName>
+			docker-jenkins-integration
+		</finalName>
+	</build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -63,5 +68,6 @@
 			</plugin>
 		</plugins>
 	</reporting>
+
 
 </project>
