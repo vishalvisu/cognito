@@ -11,8 +11,6 @@
 	<groupId>com.hackerearth.fullstack</groupId>
 	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
-	<build><finalName>docker-jenkins-integration</finalName></build>
 	<name>backend</name>
 	<description>HackerEarth boilerplate code Spring Boot</description>
 	<properties>
@@ -51,6 +49,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>docker-jenkins-integration</finalName>
 	</build>
 	
 	<reporting>
